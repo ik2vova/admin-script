@@ -48,10 +48,10 @@
 
 1. Скопировать скрипты на узел Proxmox, например в `/usr/local/sbin` или отдельный каталог:
 
-git clone https://github.com/ik2vova/admin-script.git
-cd admin-script
-cp pve-.sh /usr/local/sbin/
-chmod +x /usr/local/sbin/pve-.sh
+   git clone https://github.com/ik2vova/admin-script.git  
+   cd admin-script  
+   cp pve-*.sh /usr/local/sbin/  
+   chmod +x /usr/local/sbin/pve-*.sh  
 
 
 2. Убедиться, что `msmtp` настроен и отправка почты от имени технического ящика работает.
